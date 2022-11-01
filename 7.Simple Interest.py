@@ -16,3 +16,5 @@ SI = float(P*R*T/100) #Using float datatype will give user an accurate and presi
 
 #output Command line
 print("Your calculated Simple Interest is ",SI)
+
+#ML trial...
