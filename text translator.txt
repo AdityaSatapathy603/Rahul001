@@ -1,0 +1,34 @@
+elif 'translate' in query:
+            query = query.replace("translate", "")
+            speak('In which language you want to translate english into.')
+            print("Hindi = hi"
+                'Spanish = es'
+                'German = de'
+                'Russian = ru'
+                'Italian = it'
+                'Swedish = sv')
+            lang = str(input('Enter language of tranlation : ')
+            if 'hi' in lang:
+                speak('Type in the phrase to be translated')
+                lang1 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=hi&text='+lang1)
+            elif 'en' in lang or 'spanish' in lang or 'Spanish' in lang:
+                speak('Type in the phrase to be translated')
+                lang2 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=es&text='+lang2)
+            elif 'de' in lang or 'German' in lang or 'german' in lang:
+                speak('Type in the phrase to be translated')
+                lang3 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=de&text='+lang3)
+            elif 'ru' in lang or 'russian' in lang or 'Russian' in lang:
+                speak('Type in the phrase to be translated')
+                lang4 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=ru&text='+lang4)
+            elif 'it' in lang or 'italian' in lang or 'Italian' in lang:
+                speak('Type in the phrase to be translated')
+                lang5 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=it&text='+lang5)
+            elif 'sv' in lang or 'swedish' in lang or 'Swedish' in lang:
+                speak('Type in the phrase to be translated')
+                lang6 = str(input('Type in the phrase to be translated - '))
+                webbrowser.get(chromedir).open('https://translate.google.com/#view=home&op=translate&sl=en&tl=sv&text='+lang6) 
